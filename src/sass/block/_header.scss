@@ -1,0 +1,41 @@
+.header {    
+    height: 700px;
+    background-image: url(../../img/header/header_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__title {
+        @include text-page (40px);        
+        margin-top: 44px;
+    }
+    &__lang {
+        @include text-page (24px);
+        margin-top: 56px;
+        text-transform: uppercase;
+    }
+    &__lang p {
+        padding-left: 20px;
+    }
+    &__menu {
+        @include text-page (45px);
+        text-align: center;
+        margin-top: 40px;
+    }
+    &__menu div {
+        margin-bottom: 30px;
+        //padding-top: 5px;
+        padding-bottom: 3px;
+    }
+    &__menu div:nth-child(1) {
+        background-color: #ec5252;
+    }
+    &__menu div:nth-child(2) {
+        background-color: #4c6eeb;
+    }
+    &__menu div:nth-child(3) {
+        background-color: #d6dc3e;
+    }
+    &__menu div:nth-child(4) {
+        background-color: #63c848;
+    }
+}
