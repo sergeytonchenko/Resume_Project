@@ -5,20 +5,50 @@
     background-repeat: no-repeat;
 
     &__block1 {
-        @include about-block (100px);
+        @include about-block (100px);        
         margin-top: 12px;
         margin-bottom: 50px;
     }
+
+    &__block1 p {        
+        @include text-title;
+        padding-top: 10px;        
+    }
+
     &__block2 {
         @include about-block (530px);        
     }
+
     &__block3 {
         @include about-block (320px);
         margin-bottom: 30px;        
     }
+    
     &__block4 {
-        @include about-block (180px);        
+        @include about-block (180px);
+        
+        .block4 {
+            &__title h3{
+                @include text-title;
+                font-size: 25px;
+                font-weight: 700;
+                letter-spacing: 2px;
+                margin-bottom: 0;
+                padding-top: 5px;
+            }
+
+            &__education {
+                @include text-page (13px);
+                padding-top: 15px;
+                text-align: center;                
+            }
+            &__education p {                
+                margin-bottom: 0;
+            }
+        }
     }
+    
+
 
     
 

@@ -5,6 +5,8 @@
       weight: 400;
     }
     color: #fc7a12;
+    text-align: center;
+    opacity: 1;
   }
 
 @mixin text-page ($size) {
@@ -17,10 +19,10 @@
 }
 
 @mixin about-block ($size) {
-  height: $size;
-  opacity: 0.5;
-  background-color: black;
+  height: $size;  
+  background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 15px 5px rgba(181, 55, 55, 0.72);
 }
+
 
 
