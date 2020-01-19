@@ -19,7 +19,8 @@
 }
 
 @mixin about-block ($size) {
-  height: $size;  
+  height: $size;
+  border-radius: 5px;  
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 15px 5px rgba(181, 55, 55, 0.72);
 }
