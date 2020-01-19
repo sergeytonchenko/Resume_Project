@@ -16,14 +16,20 @@
     &__lang p {
         padding-left: 20px;
     }
+    &__photo {
+        margin-top: 40px;              
+    }
+    &__photo img{        
+        box-shadow: 0 0 27px 7px rgba(181, 55, 55, 0.72);        
+    }
     &__menu {
         @include text-page (45px);
         text-align: center;
         margin-top: 40px;
+        //position: fixed;
     }
     &__menu div {
-        margin-bottom: 30px;
-        //padding-top: 5px;
+        margin-bottom: 30px;    
         padding-bottom: 3px;
     }
     &__menu div:nth-child(1) {
@@ -37,5 +43,6 @@
     }
     &__menu div:nth-child(4) {
         background-color: #63c848;
-    }
+        margin-bottom: 0;        
+    }    
 }
