@@ -1,6 +1,25 @@
 .aboutme {
-    height: 752px;
+    height: 750px;
     background-image: url(../../img/aboutme/about_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+
+    &__block1 {
+        @include about-block (100px);
+        margin-top: 12px;
+        margin-bottom: 50px;
+    }
+    &__block2 {
+        @include about-block (530px);        
+    }
+    &__block3 {
+        @include about-block (320px);
+        margin-bottom: 30px;        
+    }
+    &__block4 {
+        @include about-block (180px);        
+    }
+
+    
+
 }
