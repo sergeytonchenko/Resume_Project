@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "animate.css": "file:animate.css",
     "bootstrap": "^4.4.1",
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
