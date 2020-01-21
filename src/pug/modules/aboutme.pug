@@ -2,18 +2,18 @@
   .container
     .row
       .col-xl-12
-        .aboutme__block1 
+        .aboutme__block1.wow.bounceIn(data-wow-delay='1s') 
           p About me
       .col-xl-5
-        .aboutme__block2.wow.boucneInLeft(data-wow-delay='5s')
+        .aboutme__block2.wow.bounceInLeft(data-wow-delay='1s')
       .col-xl-7
         .aboutme__block34.d-xl-flex.flex-xl-column
-          .aboutme__block3
-          .aboutme__block4.block4.d-xl-flex.flex-xl-column
+          .aboutme__block3.wow.bounceInRight(data-wow-delay='1s')
+          .aboutme__block4.block4.d-xl-flex.flex-xl-column.wow.bounceInRight(data-wow-delay='1.2s')
             .block4__title
               //-   h3 Образование
               h3 Education
-            .block4__education.d-xl-flex.flex-xl-row.justify-content-xl-around
+            .block4__education.d-xl-flex.flex-xl-row.justify-content-xl-around.wow.flipInX(data-wow-delay='1.8s')
               .edu1
                 object(data="../../img/aboutme/logo_1.svg", type="image/svg+xml")
                 p 2004-2010
