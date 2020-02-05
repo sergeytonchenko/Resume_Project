@@ -11,15 +11,15 @@
 
 @mixin text-page ($size) {
   font: {
-    family: 'Playfair Display', serif;
+    family: 'Cabin', sans-serif;
+    // family: 'Playfair Display', serif;
     size: $size;    
     weight: 400;
   }
   color: #ffffff;  
 }
 
-@mixin about-block ($size) {
-  height: $size;
+@mixin about-block {
   border-radius: 5px;  
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 15px 5px rgba(181, 55, 55, 0.72);

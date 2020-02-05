@@ -1,48 +1,62 @@
 .header {    
-    height: 700px;
+    // height: 800px;
     background-image: url(../../img/header/header_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 
     &__title {
         @include text-page (40px);        
-        margin-top: 44px;
+        margin-top: 55px;
     }
     &__lang {
         @include text-page (24px);
-        margin-top: 56px;
+        margin-top: 63px;
         text-transform: uppercase;
     }
     &__lang p {
         padding-left: 20px;
+        text-shadow: 2px 2px 7px rgba(181, 55, 55, 0.72); 
     }
     &__photo {
-        margin-top: 40px;              
+        margin-top: 70px;              
     }
     &__photo img{        
         box-shadow: 0 0 27px 7px rgba(181, 55, 55, 0.72);        
     }
     &__menu {
-        @include text-page (45px);
+        @include text-page (35px);
         text-align: center;
-        margin-top: 40px;
+        margin-top: 70px;
         //position: fixed;
     }
     &__menu div {
-        margin-bottom: 30px;    
-        padding-bottom: 3px;
+        margin-bottom: 41px;
+        padding-top: 12px;    
+        padding-bottom: 12px;
+        @include about-block;
     }
-    &__menu div:nth-child(1) {
-        background-color: #ec5252;
+    
+    &__social {
+        margin-top: 30px;
+        margin-bottom: 112px;
     }
-    &__menu div:nth-child(2) {
-        background-color: #4c6eeb;
+    
+    &__circle {
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 15px 5px rgba(181, 55, 55, 0.72);
+        height: 50px;
+        width: 50px;
+        position: relative;
+        text-decoration: none;
+
+
+        & i {
+            position: absolute;
+            color: #fff;
+            top: 15px;
+            left: 50%;
+            transform: translateX(-50%);            
+        }
     }
-    &__menu div:nth-child(3) {
-        background-color: #d6dc3e;
-    }
-    &__menu div:nth-child(4) {
-        background-color: #63c848;
-        margin-bottom: 0;        
-    }    
 }

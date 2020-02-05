@@ -37,8 +37,9 @@
 @import "../../node_modules/bootstrap/scss/_utilities";
 @import "../../node_modules/bootstrap/scss/_print";
 
-@import '../sass/reset';
 
+@import '../sass/reset';
+@import '../sass/_fonts';
 @import '../sass/_mixins';
 @import '../sass/block/_header';
 @import '../sass/block/_aboutme';

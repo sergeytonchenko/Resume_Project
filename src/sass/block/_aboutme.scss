@@ -5,7 +5,8 @@
     background-repeat: no-repeat;
 
     &__block1 {
-        @include about-block (100px);        
+        @include about-block;
+        height: 100px;        
         margin-top: 12px;
         margin-bottom: 50px;
     }
@@ -16,16 +17,19 @@
     }
 
     &__block2 {
-        @include about-block (530px);        
+        @include about-block;
+        height: 530px;        
     }
 
     &__block3 {
-        @include about-block (320px);
+        @include about-block;
+        height: 320px;
         margin-bottom: 30px;        
     }
     
     &__block4 {
-        @include about-block (180px);
+        @include about-block;
+        height: 180px;
         
         .block4 {
             &__title h3{
