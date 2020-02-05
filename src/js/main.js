@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-    if ($(this).scrollTop()>=100) {
+    if ($(this).scrollTop()>=900) {
       // длительность анимации - 'slow'
       // тип анимации -  'linear'
       $('.aboutme__block1').fadeIn('slow','linear');
