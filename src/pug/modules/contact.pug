@@ -2,3 +2,37 @@
   .container
     .row
       .col-xl-12
+        .contact__block
+          .row
+            .col-12
+              h2.contact__title Let's work
+            .col-4.offset-1
+              .contact__contacts.d-flex.flex-column
+                p Contacts
+                p
+                  span Tel:&nbsp;
+                  | +38(099)5582186                
+                p 
+                  span E-mail:&nbsp; 
+                  | randick56@gmail.com
+                p 
+                  span Location:&nbsp;
+                  | Ukraine, Mykolaiv
+                p Find me at social:
+              .contact__social.d-xl-flex.flex-xl-row.justify-content-xl-start          
+                a.contact__circle(href="https://www.facebook.com/", target='_blank')
+                  i.fab.fa-facebook-f.contact__social-icon
+                a.contact__circle(href="https://twitter.com/", target='_blank')
+                  i.fab.fa-twitter.contact__social-icon
+                a.contact__circle(href="https://www.instagram.com/", target='_blank')
+                  i.fab.fa-instagram.contact__social-icon
+                a.contact__circle(href="https://www.linkedin.com/in/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D1%82%D0%BE%D0%BD%D1%87%D0%B5%D0%BD%D0%BA%D0%BE-a67402199/", target='_blank')
+                  i.fab.fa-linkedin-in.contact__social-icon
+            .col-6.offset-1
+              form.contact__form(action="" id='form').d-flex.flex-column.align-items-start
+                input.contact__input(type="text", name="text" id="text" placeholder='Your name' required)
+                input.contact__input(type="email", name="email", id="email" placeholder='Email' required)
+                input.contact__input(type="textarea", name="message", id="message" placeholder='Your message' required)
+                input.contact__btn(type="submit", value="submit")
+                  
+              

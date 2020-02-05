@@ -2,5 +2,54 @@
     height: 589px;
     background-image: url(../../img/contact/contact_bg.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
+
+    &__block {
+        height: 535px;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 18.9px 10.2px rgba(139, 98, 98, 0.72);
+    }
+
+    &__title {
+        @include text-title;
+        margin: 35px 0;
+    }
+
+    &__contacts {
+
+        & p {
+            padding: 15px 0;
+            color: white;
+            font-size: 25px;
+        }
+
+        & span {
+            color: rgb(218, 91, 32);
+        }
+    }
+
+    &__social {
+        margin-top: 10px;
+        margin-bottom: 13px;
+    }
+    
+    &__circle {
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 15px 5px rgba(181, 55, 55, 0.72);
+        height: 50px;
+        width: 50px;
+        position: relative;
+        text-decoration: none;
+        margin-right: 15px;
+
+
+        & i {
+            position: absolute;
+            color: #fc7a12;
+            top: 15px;
+            left: 50%;
+            transform: translateX(-50%);            
+        }
+    }
 }
