@@ -1,3 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="26" viewBox="0 0 30 26">
-  <image id="Rectangle_2_copy" data-name="Rectangle 2 copy" width="30" height="26" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAMAAACXfxyGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB11BMVEUAAAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/zAD/////////////zAD/////////////////////zAD/zAD/zAD/zAD/zAD/////////////////////////zAD/zAD/zAD/zAD/zAD/////////////////////zAD/zAD/zAD/zAD/////////////////////////zAD/zAD/zAD/zAD/////////////////////////////zAD/zAD/zAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAAGikxLAAAAnHRSTlMAJAE/rbuPO+pAD8uLOOhFEc6FM0kU0YAv504V1HwsUxfYdijmVxvbcOJeHNxsImIf32YeZx5vFW6JvIDRFOFfGdpygdASh84QJ+RZ1nl+043KDypV0n921xaQxg4t5WHPcdsaAZXDCzDwjGzcHJvACmXgH567YeIjA6K4B1vjJai1BlbnKauwUuUtrqwETOgwtKlI6jSjRDnrPEJNIvbPAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAATZJREFUKM9jYGRiwAmYWRhY2XDKsnNwMnBx8+CQ5eXjB5ICgkJYZYU5RMC0qJg4FlkJSSkoS1pGFkNWTlIezlZQVEKTVVZRReKpqWugyDJqaqHwtXV0kXh6mvpophkYGsHZxoYmUJYpg5k5ug5tHQsoy9KKwdrGFmqfnT2YdnB0gso6u7gyMLi5e0B4nl7eIF/6+EJl/fzBBgcEBkH4wZIhDNKhYVDZ8IhICCMqOgbCiI2LT4CFcGJSMpSVkpqWDmFlZGZBxbJzcuE+ScnLL4D6Dxr7hUXFSL5OKSktQA6FsvIKlFCprKquQfBq6+rRQq2yobEJxm5uacWIwcq2dqh8R2cXAyZo6u7pBdF9/RMYsIGmiZMqGRgmT5nKgB3UVE+rnN4/gwEXKCidOHMWA25QUD0bVQAAZtw56Im2fLcAAAAASUVORK5CYII="/>
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="17" viewBox="0 0 30 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fc7a12;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M815,626.356l-15.287,15.658-14.728-15.033" transform="translate(-784.5 -625.156)"/>
 </svg>

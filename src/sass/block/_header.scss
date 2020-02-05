@@ -38,7 +38,7 @@
     
     &__social {
         margin-top: 30px;
-        margin-bottom: 112px;
+        margin-bottom: 53px;
     }
     
     &__circle {
@@ -53,10 +53,23 @@
 
         & i {
             position: absolute;
-            color: #fff;
+            color: #fc7a12;
             top: 15px;
             left: 50%;
             transform: translateX(-50%);            
         }
+    }
+
+    &__scroll {
+        text-align: center;
+        margin-bottom: 39px;
+        position: relative;        
+
+        &::before {
+            content: url(../../img/header/scroll.svg);
+            position: absolute;
+            top: 12px;
+        }
+
     }
 }

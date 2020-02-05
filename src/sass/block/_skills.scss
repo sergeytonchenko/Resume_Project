@@ -1,6 +1,93 @@
 .skills {
-    height: 778px;
+    height: 800px;
     background-image: url(../../img/skills/skills_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    
+
+    &__list {
+        list-style: none;
+        width: 100%;
+        margin: 60px auto;
+        color: white;
+
+        & li {
+            margin: 20px 0;
+        }
+
+        & h3 {
+            margin: 20px 0;
+        }
+    }
+
+    &__bar {
+        background: #353b48;
+        display: block;
+        height: 4px;
+        border: 1px solid rgba(31, 6, 90, 0.1);
+        border-radius: 3px;        
+        box-shadow: 0 0 10px #fc7a12b3;  
+
+        & span {            
+            float: left;
+            height: 2px;
+            background: #fc7a12;
+        }
+    }
+
+    &__html {
+        width: 90%;
+        animation: html 2s;
+    }
+
+    &__css {
+        width: 70%;
+        animation: css 2s;
+    }
+
+    &__js {
+        width: 60%;
+        animation: js 2s;
+    }
+
+    &__prep {
+        width: 50%;
+        animation: prep 2s;
+    }
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes js {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes prep {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
 }

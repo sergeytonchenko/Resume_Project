@@ -1,6 +1,6 @@
 @mixin text-title {
     font: {
-      family: 'Playfair Display', serif;
+      family: 'Cabin', sans-serif;
       size: 45px;
       weight: 400;
     }
@@ -16,7 +16,7 @@
     size: $size;    
     weight: 400;
   }
-  color: #ffffff;  
+  color: #fc7a12;  
 }
 
 @mixin about-block {
