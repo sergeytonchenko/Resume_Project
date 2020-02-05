@@ -1,9 +1,14 @@
 .skills {
-    height: 800px;
+    //height: 800px;
     background-image: url(../../img/skills/skills_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     
+    &__title {
+        @include text-title;
+        text-align: center;
+        margin: 45px 0;
+    }
 
     &__list {
         list-style: none;
@@ -12,11 +17,14 @@
         color: white;
 
         & li {
-            margin: 20px 0;
+            margin: 40px 0;
         }
 
         & h3 {
             margin: 20px 0;
+            @include text-title;
+            font-size: 35px;
+            text-align: left;
         }
     }
 
@@ -53,6 +61,16 @@
     &__prep {
         width: 50%;
         animation: prep 2s;
+    }
+
+    &__block {
+        width: 1140px;
+        height: 375px;
+        opacity: 0.59;
+        background-color: black;
+        box-shadow: 0 0 18.9px 10.2px rgba(139, 98, 98, 0.72);
+        margin-bottom: 75px;
+        border-radius: 5px;
     }
 }
 
