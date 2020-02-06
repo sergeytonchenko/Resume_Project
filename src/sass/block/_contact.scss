@@ -32,6 +32,10 @@
             text-decoration: none;
             color: white;
         }
+
+        & a:hover {
+            text-shadow: 3px 3px 5px rgba(185, 121, 121, 0.849);
+        }
     }
 
     &__social {

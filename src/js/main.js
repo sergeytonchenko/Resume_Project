@@ -38,3 +38,27 @@ $("#portfolio__slider").owlCarousel({
 
 $('.owl-prev span').html('<img src="../img/portfolio/prev.png"></img>');
 $('.owl-next span').html('<img src="../img/portfolio/next.png"></img>');
+
+$('#about').on('click', function(){        
+    let dest = document.querySelector('.aboutme'); 
+      $('html,body').animate({ 
+        scrollTop: $(dest).offset().top}, 700);
+    });
+
+$('#skills').on('click', function(){        
+    let dest = document.querySelector('.skills'); 
+      $('html,body').animate({ 
+        scrollTop: $(dest).offset().top}, 700);
+    });
+
+$('#portfolio').on('click', function(){        
+    let dest = document.querySelector('.portfolio'); 
+      $('html,body').animate({ 
+        scrollTop: $(dest).offset().top}, 700);
+    });
+
+$('#contact').on('click', function(){        
+    let dest = document.querySelector('.contact'); 
+      $('html,body').animate({ 
+        scrollTop: $(dest).offset().top}, 700);
+    });

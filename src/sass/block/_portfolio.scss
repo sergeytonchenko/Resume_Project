@@ -1,5 +1,4 @@
 .portfolio {
-    height: 698px;
     background-image: url(../img/portfolio/pf_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,10 +46,35 @@
     //     display: none !important;
     // } 
 }
+.owl-prev:hover,
+.owl-next:hover {
+    background: none !important;
+}
+
 .owl-prev {
     left: -155px;
 }
 .owl-next {
-    right: -155px;  
+    right: -155px;      
+}
+.owl-dots {
+    margin-top: 50px;
+    margin-bottom: 50px; 
+
+    @media (max-width: 1199px) {
+        margin-top: 40px !important;
+        margin-bottom: 30px !important;
+    }
     
 }
+.owl-dot{
+    margin-left: 13px;
+    margin-right: 13px;
+ }
+ .owl-dot.active span{
+    background: #fc7a12 !important;
+ }
+ .owl-dot span{
+    background: none !important;
+    border: 1px solid #fc7a12;
+ }
