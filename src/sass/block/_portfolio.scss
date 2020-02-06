@@ -37,3 +37,20 @@
         }
     }
 }
+
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 39%;
+    margin-top: 0px;
+    
+    // @media (max-width: 1199px) {
+    //     display: none !important;
+    // } 
+}
+.owl-prev {
+    left: -155px;
+}
+.owl-next {
+    right: -155px;  
+    
+}
