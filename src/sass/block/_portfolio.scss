@@ -4,12 +4,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    &__block1 {
-        width: 350px;
-        height: 607px;
-        opacity: 0.75;
-        background-color: #f47408;
-        box-shadow: 0 0 24.2px 10.9px rgba(0, 0, 0, 0.72);
-
+    &__title { 
+        @include text-title;
+        text-align: center;
+        margin: 45px 0;
     }
 }
