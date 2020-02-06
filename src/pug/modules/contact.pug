@@ -11,21 +11,21 @@
                 p Contacts
                 p
                   span Tel:&nbsp;
-                  | +38(099)5582186                
+                  a(title='Позвонить', href='tel:+120345678910') +12(034)567-89-10                
                 p 
                   span E-mail:&nbsp; 
-                  | randick56@gmail.com
+                  a(title='E-mail', href='mailto:randick56@gmail.com', target='_blank') randick56@gmail.com
                 p 
-                  span Location:&nbsp;
-                  | Ukraine, Mykolaiv
+                  span Location:&nbsp; 
+                  a(title='Location', href='https://goo.gl/maps/HVBPhDZDdYPn3hQu6', target='_blank') Ukraine, Mykolaiv
                 p Find me at social:
               .contact__social.d-xl-flex.flex-xl-row.justify-content-xl-start          
-                a.contact__circle(href="https://www.facebook.com/", target='_blank')
+                a.contact__circle(href="https://www.facebook.com/profile.php?id=100022107559569&ref=bookmarks", target='_blank')
                   i.fab.fa-facebook-f.contact__social-icon
-                a.contact__circle(href="https://twitter.com/", target='_blank')
-                  i.fab.fa-twitter.contact__social-icon
-                a.contact__circle(href="https://www.instagram.com/", target='_blank')
-                  i.fab.fa-instagram.contact__social-icon
+                a.contact__circle(href="https://vk.com/id128143854", target='_blank')
+                  i.fab.fa-vk.contact__social-icon
+                a.contact__circle(href="https://t.me/randick56", target='_blank')                
+                  i.fab.fa-telegram-plane.contact__social-icon
                 a.contact__circle(href="https://www.linkedin.com/in/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D1%82%D0%BE%D0%BD%D1%87%D0%B5%D0%BD%D0%BA%D0%BE-a67402199/", target='_blank')
                   i.fab.fa-linkedin-in.contact__social-icon
             .col-5.offset-1
@@ -33,6 +33,8 @@
                 input.contact__input(type="text", name="text" id="text" placeholder='Your name' required)
                 input.contact__input(type="email", name="email", id="email" placeholder='Email' required)
                 input.contact__input(type="textarea", name="message", id="message" placeholder='Your message' required)
-                input.contact__btn(type="submit", value="Send message")
+                input.contact__btn(type="submit", value="send")
+            .col-12.d-flex.flex-row.justify-content-center
+              small.contact__license All Rights @ 2019 By Tonchenko sergey
                   
               

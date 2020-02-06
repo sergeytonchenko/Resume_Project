@@ -1,11 +1,12 @@
 .contact {
-    height: 589px;
+    // height: 589px;
     background-image: url(../img/contact/contact_bg.png);
     background-size: cover;
     background-repeat: no-repeat;    
 
     &__block {
-        height: 535px;
+        // height: 535px;
+        margin: 70px 0;
         background-color: rgba(0, 0, 0, 0.5);
         box-shadow: 0 0 18.9px 10.2px rgba(139, 98, 98, 0.72);
     }
@@ -25,6 +26,11 @@
 
         & span {
             color: rgb(218, 91, 32);
+        }
+
+        & a {
+            text-decoration: none;
+            color: white;
         }
     }
 
@@ -60,11 +66,26 @@
         padding-left: 10px;
 
         &::placeholder {
-            color: #2b2d5c;
+            color: #2b2d5ca1;
         }
 
         &:nth-child(3) {
             padding-bottom: 100px;
         }
+    }
+
+    &__btn {
+        margin: 10px 0 20px 0;
+        padding: 15px 60px;
+        background-color: #fc7a12;
+        border: none;
+        text-transform: uppercase;
+    }
+
+    &__license {
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        margin-bottom: 15px;
     }
 }
