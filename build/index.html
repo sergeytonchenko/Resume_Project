@@ -85,7 +85,7 @@
         <div class="row">
           <div class="col-xl-12">
             <h2 class="skills__title">My skills</h2>
-            <div class="skills__list">
+            <div class="skills__list wow zoomIn" data-wow-delay="0.3s">
               <li>
                 <h3>HTML5</h3><span class="skills__bar"><span class="skills__html"></span></span>
               </li>
@@ -107,8 +107,17 @@
     <div class="portfolio">
       <div class="container">
         <div class="row">
-          <div class="col-xl-4">
-            <div class="portfolio__block1"></div>
+          <div class="col-12">
+            <h3 class="portfolio__title">Portfolio</h3>
+          </div>
+          <div class="col-12 pl-sm-3 pr-sm-3 pl-0 pr-0">
+            <div class="owl-carousel owl-theme owl-loaded" id="portfolio__slider">
+              <div class="owl-stage-outer">
+                <div class="owl-stage">
+                  <div class="owl-item"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -149,6 +158,8 @@
     </div>
   </body>
   <script src="https://kit.fontawesome.com/f811e9d5c2.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+  <script src="./js/owl_carousel.js"></script>
   <script src="./js/main.js"></script>
   <script src="./js/wow.js"></script>
   <script>
