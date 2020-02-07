@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-    if ($(this).scrollTop()>=800) {      
+    if ($(this).scrollTop()>=100) {      
       $('.aboutme__up').fadeIn('slow','linear');
     }
     else {      
@@ -64,6 +64,12 @@ $('#contact').on('click', function(){
       $('html,body').animate({ 
         scrollTop: $(dest).offset().top}, 700);
     });
+
+$('#up').on('click', function(){        
+  let dest = document.querySelector('.header'); 
+    $('html,body').animate({ 
+      scrollTop: $(dest).offset().top}, 700);
+  });
 
 
     jQuery(document).ready(function($) {
