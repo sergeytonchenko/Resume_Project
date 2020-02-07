@@ -47,6 +47,12 @@ $('#about').on('click', function(){
           scrollTop: $(dest).offset().top}, 700);
       });
 
+      $('#burger_about').on('click', function(){        
+        let dest = document.querySelector('.aboutme'); 
+          $('html,body').animate({ 
+            scrollTop: $(dest).offset().top}, 700);
+        });
+
 
 $('#scroll').on('click', function(){        
     let dest = document.querySelector('.aboutme'); 
@@ -66,6 +72,12 @@ $('#skills').on('click', function(){
           scrollTop: $(dest).offset().top}, 700);
       });
 
+      $('#burger_skills').on('click', function(){        
+        let dest = document.querySelector('.skills'); 
+          $('html,body').animate({ 
+            scrollTop: $(dest).offset().top}, 700);
+        });
+
 $('#portfolio').on('click', function(){        
     let dest = document.querySelector('.portfolio'); 
       $('html,body').animate({ 
@@ -78,6 +90,12 @@ $('#portfolio').on('click', function(){
           scrollTop: $(dest).offset().top}, 700);
       });
 
+      $('#burger_portfolio').on('click', function(){        
+        let dest = document.querySelector('.portfolio'); 
+          $('html,body').animate({ 
+            scrollTop: $(dest).offset().top}, 700);
+        });
+
 $('#contact').on('click', function(){        
     let dest = document.querySelector('.contact'); 
       $('html,body').animate({ 
@@ -89,6 +107,12 @@ $('#contact').on('click', function(){
         $('html,body').animate({ 
           scrollTop: $(dest).offset().top}, 700);
       });
+
+      $('#burger_contact').on('click', function(){        
+        let dest = document.querySelector('.contact'); 
+          $('html,body').animate({ 
+            scrollTop: $(dest).offset().top}, 700);
+        });
 
 $('#up').on('click', function(){        
   let dest = document.querySelector('.header'); 

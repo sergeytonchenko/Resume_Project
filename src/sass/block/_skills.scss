@@ -8,6 +8,12 @@
         @include text-title;
         text-align: center;
         margin: 45px 0;
+
+        @media (max-width: 575px) {
+            margin: 20px 0;
+            font-size: 30px;
+        }
+    
     }
 
     &__list {
@@ -15,6 +21,10 @@
         width: 100%;
         margin: 60px auto;
         color: white;
+
+        @media (max-width: 575px) {
+            margin: 30px auto;
+        }
 
         & li {
             margin: 40px 0;
@@ -25,6 +35,11 @@
             @include text-title;
             font-size: 35px;
             text-align: left;
+
+            @media (max-width: 575px) {
+                margin: 15px 0;
+                font-size: 25px;
+            }
         }
     }
 
@@ -63,22 +78,30 @@
         animation: prep 2s;
     }
 
-    &__block {
-        width: 1140px;
-        height: 375px;        
+    &__block {                
         background-color: rgba(0, 0, 0, 0.52);
         box-shadow: 0 0 18.9px 10.2px rgba(139, 98, 98, 0.72);
         margin-bottom: 75px;
         border-radius: 5px;
+
+        @media (max-width: 575px) {
+            margin-bottom: 35px;
+        }
     }
 
     &__lists {
         margin: 20px 0 20px 20px;
         padding-left: 20px;
-        list-style: none;
-        width: 100%;        
+        list-style: none;               
         color: white;
         border-right: 1px solid white;
+
+        @media (max-width: 575px) {
+            margin-right: 20px;
+            padding-left: 0px;
+            border-right: none;             
+            border-bottom: 1px solid white;
+        }
 
         &--last {
             border-right: none;
@@ -87,6 +110,11 @@
         & li {
             margin: 40px 0;
             font-size: 25px;
+
+            @media (max-width: 575px) {
+                margin: 20px 0;
+                font-size: 20px;
+            }
         }
     }
 }

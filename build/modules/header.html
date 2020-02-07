@@ -5,15 +5,28 @@
       <div class="col-xl-12 d-xl-flex flex-xl-row justify-content-xl-between">
         <h1 class="header__title tab_en">Welcome, to the resume page Tonchenko Sergey</h1>
         <h1 class="header__title tab_ru">Добро пожаловать на страничку Тонченка Сегрея</h1>
-        <div class="header__lang d-xl-inline-flex">
+        <div class="header__lang d-xl-inline-flex d-flex flex-row justify-content-start">
           <p id=".tab_en">eng</p>
-          <p id=".tab_ru">рус</p>
+          <p id=".tab_ru">рус      </p>
+          <div class="header__burger burger d-xl-none d-block">
+            <nav>
+              <div class="burger__toggle">
+                <input type="checkbox"/><span></span><span></span><span></span>
+                <ul class="burger__link">
+                  <li class="burger__item"><a class="tab_en" id="burger_about">About me</a></li>
+                  <li class="burger__item"><a class="tab_en" id="burger_skills">Skills</a></li>
+                  <li class="burger__item"><a class="tab_en" id="burger_portfolio">Potfolio</a></li>
+                  <li class="burger__item"><a class="tab_en" id="burger_contact">Let's work?</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
       </div>
-      <div class="col-xl-5">
+      <div class="col-xl-5 col-12">
         <div class="header__photo"><img src="./img/header/my_photo.png" alt="my_photo"/></div>
       </div>
-      <div class="col-xl-4 offset-xl-3">
+      <div class="col-xl-4 offset-xl-3 d-xl-block d-none">
         <div class="header__menu menu d-xl-flex flex-xl-column">
           <div class="menu__item tab_en wow fadeInRight" id="about" data-wow-delay="1s">About me</div>
           <div class="menu__item tab_ru wow fadeInRight" id="about1" data-wow-delay="1s">О себе</div>
@@ -25,8 +38,8 @@
           <div class="menu__item tab_ru wow fadeInRight" id="contact1" data-wow-delay="1.3s">Контакты</div>
         </div>
       </div>
-      <div class="col-xl-3 offset-xl-9">
-        <div class="header__social d-xl-flex flex-xl-row justify-content-xl-between">         <a class="contact__circle" href="https://www.facebook.com/profile.php?id=100022107559569&amp;ref=bookmarks" target="_blank"><i class="fab fa-facebook-f contact__social-icon"></i></a><a class="contact__circle" href="https://vk.com/id128143854" target="_blank"><i class="fab fa-vk contact__social-icon"></i></a><a class="contact__circle" href="https://t.me/randick56" target="_blank">               <i class="fab fa-telegram-plane contact__social-icon"></i></a><a class="contact__circle" href="https://www.linkedin.com/in/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D1%82%D0%BE%D0%BD%D1%87%D0%B5%D0%BD%D0%BA%D0%BE-a67402199/" target="_blank"><i class="fab fa-linkedin-in contact__social-icon"></i></a></div>
+      <div class="col-xl-3 offset-xl-9 col-12 offset-0">
+        <div class="header__social d-flex flex-row justify-content-between">         <a class="contact__circle" href="https://www.facebook.com/profile.php?id=100022107559569&amp;ref=bookmarks" target="_blank"><i class="fab fa-facebook-f contact__social-icon"></i></a><a class="contact__circle" href="https://vk.com/id128143854" target="_blank"><i class="fab fa-vk contact__social-icon"></i></a><a class="contact__circle" href="https://t.me/randick56" target="_blank">               <i class="fab fa-telegram-plane contact__social-icon"></i></a><a class="contact__circle" href="https://www.linkedin.com/in/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D1%82%D0%BE%D0%BD%D1%87%D0%B5%D0%BD%D0%BA%D0%BE-a67402199/" target="_blank"><i class="fab fa-linkedin-in contact__social-icon"></i></a></div>
       </div>
       <div class="col-12">
         <div class="header__scroll" id="scroll"><img src="./img/header/scroll.svg" alt="scroll"/></div>

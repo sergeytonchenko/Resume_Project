@@ -7,6 +7,11 @@
         @include text-title;
         text-align: center;
         margin: 45px 0;
+
+        @media (max-width: 575px) {
+            margin: 20px 0;
+            font-size: 30px;
+        }
     }
 
     &__container {        
@@ -19,6 +24,10 @@
             -o-filter: grayscale(100%);
             filter: grayscale(100%);
             filter: gray; /* IE 6-9 */
+
+            @media (max-width: 575px) { 
+                filter: none;       
+            }
         }
 
         &:hover img {
@@ -42,9 +51,9 @@
     top: 39%;
     margin-top: 0px;
     
-    // @media (max-width: 1199px) {
-    //     display: none !important;
-    // } 
+    @media (max-width: 575px) {
+        display: none !important;
+    } 
 }
 .owl-prev:hover,
 .owl-next:hover {
