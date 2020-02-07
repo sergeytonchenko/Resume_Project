@@ -45,6 +45,12 @@ $('#about').on('click', function(){
         scrollTop: $(dest).offset().top}, 700);
     });
 
+$('#scroll').on('click', function(){        
+    let dest = document.querySelector('.aboutme'); 
+      $('html,body').animate({ 
+        scrollTop: $(dest).offset().top}, 700);
+    });
+        
 $('#skills').on('click', function(){        
     let dest = document.querySelector('.skills'); 
       $('html,body').animate({ 

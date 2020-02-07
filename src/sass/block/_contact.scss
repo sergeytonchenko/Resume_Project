@@ -53,6 +53,10 @@
         text-decoration: none;
         margin-right: 15px;
 
+        &:hover {
+            box-shadow: 0 0 15px 5px rgba(223, 191, 191, 0.72);
+        }
+
 
         & i {
             position: absolute;
@@ -60,6 +64,10 @@
             top: 15px;
             left: 50%;
             transform: translateX(-50%);            
+        }
+
+        &:hover i {
+            color: white;
         }
     }
 

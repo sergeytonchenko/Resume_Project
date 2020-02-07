@@ -79,7 +79,8 @@
     &__scroll {
         text-align: center;
         margin-bottom: 39px;
-        position: relative;        
+        position: relative;
+        cursor: pointer;        
 
         &::before {
             content: url(../../img/header/scroll.svg);

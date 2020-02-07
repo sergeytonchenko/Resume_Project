@@ -65,12 +65,23 @@
 
     &__block {
         width: 1140px;
-        height: 375px;
-        opacity: 0.59;
-        background-color: black;
+        height: 375px;        
+        background-color: rgba(0, 0, 0, 0.52);
         box-shadow: 0 0 18.9px 10.2px rgba(139, 98, 98, 0.72);
         margin-bottom: 75px;
         border-radius: 5px;
+    }
+
+    &__lists {
+        margin: 20px 20px;
+        list-style: none;
+        width: 100%;        
+        color: white;
+
+        & li {
+            margin: 40px 0;
+            font-size: 25px;
+        }
     }
 }
 
