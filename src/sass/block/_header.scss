@@ -15,9 +15,14 @@
     }
     &__lang p {
         padding-left: 20px;
-        text-shadow: 2px 2px 7px rgba(181, 55, 55, 0.72);
-        cursor: pointer; 
+
     }
+
+    &__lang p:not(.active) {        
+        cursor: pointer;
+        color: #9b6941;
+    }
+
     &__photo {
         margin-top: 70px;              
     }

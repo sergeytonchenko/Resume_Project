@@ -74,7 +74,7 @@ $('#contact').on('click', function(){
 
       $('.tab_ru').hide();
       $('.tab_en').show();
-      $('.header__lang p').addClass('active');
+      $('.header__lang p:first').addClass('active');
     
       $('.header__lang p').click(function(event) {
         $('.header__lang p').removeClass('active');
