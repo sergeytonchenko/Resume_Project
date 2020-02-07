@@ -68,3 +68,23 @@ $('#contact').on('click', function(){
       $('html,body').animate({ 
         scrollTop: $(dest).offset().top}, 700);
     });
+
+
+    jQuery(document).ready(function($) {
+
+      $('.tab_ru').hide();
+      $('.tab_en').show();
+      $('.header__lang p').addClass('active');
+    
+      $('.header__lang p').click(function(event) {
+        $('.header__lang p').removeClass('active');
+        console.log(this);
+        $(this).addClass('active');
+        $('.tab_ru').hide();
+        $('.tab_en').hide();
+
+        let selectContent = $(this).attr("id");
+        console.log(selectContent);        
+        $(selectContent).fadeIn();    
+      })  
+    })

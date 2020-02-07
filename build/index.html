@@ -13,10 +13,11 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-12 d-xl-flex flex-xl-row justify-content-xl-between">
-            <h1 class="header__title">Welcome, to the resume page Tonchenko Sergey</h1>
+            <h1 class="header__title tab_en">Welcome, to the resume page Tonchenko Sergey</h1>
+            <h1 class="header__title tab_ru">Добро пожаловать на страничку Тонченка Сегрея</h1>
             <div class="header__lang d-xl-inline-flex">
-              <p>рус</p>
-              <p>eng</p>
+              <p id=".tab_ru">рус</p>
+              <p id=".tab_en">eng</p>
             </div>
           </div>
           <div class="col-xl-5">
@@ -24,10 +25,14 @@
           </div>
           <div class="col-xl-4 offset-xl-3">
             <div class="header__menu menu d-xl-flex flex-xl-column">
-              <div class="menu__item wow fadeInRight" id="about" data-wow-delay="1s">About me</div>
-              <div class="menu__item wow fadeInRight" id="skills" data-wow-delay="1.1s">Skills</div>
-              <div class="menu__item wow fadeInRight" id="portfolio" data-wow-delay="1.2s">Potfolio</div>
-              <div class="menu__item wow fadeInRight" id="contact" data-wow-delay="1.3s">Let's work?</div>
+              <div class="menu__item tab_en wow fadeInRight" id="about" data-wow-delay="1s">About me</div>
+              <div class="menu__item tab_ru wow fadeInRight" id="about" data-wow-delay="1s">О себе</div>
+              <div class="menu__item tab_en wow fadeInRight" id="skills" data-wow-delay="1.1s">Skills</div>
+              <div class="menu__item tab_ru wow fadeInRight" id="skills" data-wow-delay="1.1s">Навыки</div>
+              <div class="menu__item tab_en wow fadeInRight" id="portfolio" data-wow-delay="1.2s">Potfolio</div>
+              <div class="menu__item tab_ru wow fadeInRight" id="portfolio" data-wow-delay="1.2s">Портфолио</div>
+              <div class="menu__item tab_en wow fadeInRight" id="contact" data-wow-delay="1.3s">Let's work?</div>
+              <div class="menu__item tab_ru wow fadeInRight" id="contact" data-wow-delay="1.3s">Контакты</div>
             </div>
           </div>
           <div class="col-xl-3 offset-xl-9">
@@ -44,7 +49,8 @@
         <div class="row">
           <div class="col-xl-12">
             <div class="aboutme__block1"> 
-              <p>About me</p>
+              <p class="tab_en">About me</p>
+              <p class="tab_ru">О себе</p>
             </div>
           </div>
           <div class="col-xl-5">
@@ -55,23 +61,27 @@
               <div class="aboutme__block3 wow bounceInRight" data-wow-delay="0.5s"></div>
               <div class="aboutme__block4 block4 d-xl-flex flex-xl-column wow bounceInRight" data-wow-delay="0.5s">
                 <div class="block4__title">
-                  <h3>Education</h3>
+                  <h3 class="tab_en">Education</h3>
+                  <h3 class="tab_ru">Образование</h3>
                 </div>
                 <div class="block4__education d-xl-flex flex-xl-row justify-content-xl-around wow flipInX" data-wow-delay="1.8s">
                   <div class="edu1">
                     <object data="../img/aboutme/logo_1.svg" type="image/svg+xml"></object>
                     <p>2004-2010</p>
-                    <p>Electronic systems</p>
+                    <p class="tab_en">Electronic systems</p>
+                    <p class="tab_ru">Электронные системы</p>
                   </div>
                   <div class="edu2">
                     <object data="../img/aboutme/logo_2.svg" type="image/svg+xml"></object>
                     <p>2010-2012</p>
-                    <p>Computer graphics and web-design</p>
+                    <p class="tab_en">Computer graphics and web-design</p>
+                    <p class="tab_ru">Компьютерная графика и вэб-дизайн</p>
                   </div>
                   <div class="edu3">
                     <object data="../img/aboutme/logo_3.svg" type="image/svg+xml"></object>
                     <p>2019-2020</p>
-                    <p>Front-end development</p>
+                    <p class="tab_en">Front-end development</p>
+                    <p class="tab_ru">Front-end разработка</p>
                   </div>
                 </div>
               </div>
@@ -173,27 +183,33 @@
             <div class="contact__block">
               <div class="row">
                 <div class="col-12">
-                  <h2 class="contact__title">Let's work</h2>
+                  <h2 class="contact__title tab_en">Let's work</h2>
+                  <h2 class="contact__title tab_ru">Контакты</h2>
                 </div>
                 <div class="col-4 offset-1">
                   <div class="contact__contacts d-flex flex-column">
-                    <p>Contacts</p>
-                    <p><span>Tel:&nbsp;</span><a title="Позвонить" href="tel:+120345678910">+12(034)567-89-10                </a></p>
+                    <p class="tab_en">Contacts</p>
+                    <p class="tab_ru">Контакты</p>
+                    <p><span class="tab_en">Tel:&nbsp;</span><span class="tab_ru">Тел:&nbsp;</span><a title="Phone me" href="tel:+120345678910">+38(099)558-21-86                </a></p>
                     <p> <span>E-mail:&nbsp; </span><a title="E-mail" href="mailto:randick56@gmail.com" target="_blank">randick56@gmail.com</a></p>
-                    <p> <span>Location:&nbsp; </span><a title="Location" href="https://goo.gl/maps/HVBPhDZDdYPn3hQu6" target="_blank">Ukraine, Mykolaiv</a></p>
-                    <p>Find me at social:</p>
+                    <p> <span class="tab_en">Location:&nbsp;</span><span class="tab_ru">Нахожусь:&nbsp;  </span><a class="tab_en" title="Location" href="https://goo.gl/maps/HVBPhDZDdYPn3hQu6" target="_blank">Ukraine, Mykolaiv</a><a class="tab_ru" title="Location" href="https://goo.gl/maps/HVBPhDZDdYPn3hQu6" target="_blank">Украина, Николаев</a></p>
+                    <p class="tab_en">Find me at social:</p>
+                    <p class="tab_ru">Меня можно найти здесь:</p>
                   </div>
                   <div class="contact__social d-xl-flex flex-xl-row justify-content-xl-start">         <a class="contact__circle" href="https://www.facebook.com/profile.php?id=100022107559569&amp;ref=bookmarks" target="_blank"><i class="fab fa-facebook-f contact__social-icon"></i></a><a class="contact__circle" href="https://vk.com/id128143854" target="_blank"><i class="fab fa-vk contact__social-icon"></i></a><a class="contact__circle" href="https://t.me/randick56" target="_blank">               <i class="fab fa-telegram-plane contact__social-icon"></i></a><a class="contact__circle" href="https://www.linkedin.com/in/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D1%82%D0%BE%D0%BD%D1%87%D0%B5%D0%BD%D0%BA%D0%BE-a67402199/" target="_blank"><i class="fab fa-linkedin-in contact__social-icon"></i></a></div>
                 </div>
                 <div class="col-5 offset-1">
                   <form class="contact__form d-flex flex-column align-items-start" action="" id="form">
-                    <input class="contact__input" type="text" name="text" id="text" placeholder="Your name" required="required"/>
+                    <input class="contact__input tab_en" type="text" name="text" id="text" placeholder="Your name" required="required"/>
+                    <input class="contact__input tab_ru" type="text" name="text" id="text" placeholder="Ваше имя" required="required"/>
                     <input class="contact__input" type="email" name="email" id="email" placeholder="Email" required="required"/>
-                    <input class="contact__input" type="textarea" name="message" id="message" placeholder="Your message" required="required"/>
-                    <input class="contact__btn" type="submit" value="send"/>
+                    <input class="contact__input tab_en" type="textarea" name="message" id="message" placeholder="Your message" required="required"/>
+                    <input class="contact__input tab_ru" type="textarea" name="message" id="message" placeholder="Ваше сообщение" required="required"/>
+                    <input class="contact__btn tab_en" type="submit" value="send"/>
+                    <input class="contact__btn tab_ru" type="submit" value="отправить"/>
                   </form>
                 </div>
-                <div class="col-12 d-flex flex-row justify-content-center"><small class="contact__license">All Rights &copy; 2020 By Tonchenko Sergey</small></div>
+                <div class="col-12 d-flex flex-row justify-content-center"><small class="contact__license tab_en">All Rights &copy; 2020 By Tonchenko Sergey</small><small class="contact__license tab_ru">Все права &copy; 2020 Тонченко Сергей</small></div>
               </div>
             </div>
           </div>
