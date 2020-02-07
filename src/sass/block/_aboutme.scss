@@ -24,14 +24,40 @@
 
     &__block2 {
         @include about-block;
-        height: 530px;        
+        height: 530px;                
+    }
+
+    &__block2 p {
+        color: white;
+        padding: 35px;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: justify;       
     }
 
     &__block3 {
         @include about-block;
         height: 320px;
-        margin-bottom: 30px;        
+        margin-bottom: 30px;
+        
+        & h3 {
+            @include text-title;
+            font-size: 25px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 0;
+            padding-top: 15px;
+        }
+
+        & li {
+            color: white;
+            padding: 5px 20px;            
+            font-size: 20px;
+            line-height: 30px;
+            text-align: justify;       
+        }
     }
+
     
     &__block4 {
         @include about-block;
