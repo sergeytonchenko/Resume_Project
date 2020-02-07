@@ -129,6 +129,13 @@
         @media (max-width: 575px) { 
             padding: 15px 104px;                 
         }
+
+        &.tab_ru {
+
+            @media (max-width: 575px) { 
+            padding: 15px 70px;                 
+        }
+        }
     }
 
     &__license {
