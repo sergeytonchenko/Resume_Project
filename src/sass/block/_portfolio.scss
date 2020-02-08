@@ -8,8 +8,12 @@
         text-align: center;
         margin: 45px 0;
 
-        @media (max-width: 575px) {
+        @media (max-width: 767px) {
             margin: 20px 0;
+            font-size: 40px;
+        }
+
+        @media (max-width: 575px) {
             font-size: 30px;
         }
     }
@@ -25,7 +29,7 @@
             filter: grayscale(100%);
             filter: gray; /* IE 6-9 */
 
-            @media (max-width: 575px) { 
+            @media (max-width: 676px) { 
                 filter: none;       
             }
         }
@@ -51,7 +55,7 @@
     top: 39%;
     margin-top: 0px;
     
-    @media (max-width: 575px) {
+    @media (max-width: 767px) {
         display: none !important;
     } 
 }

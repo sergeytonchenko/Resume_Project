@@ -1,16 +1,14 @@
-.contact {
-    // height: 589px;
+.contact {    
     background-image: url(../img/contact/contact_bg.png);
     background-size: cover;
     background-repeat: no-repeat;    
 
-    &__block {
-        // height: 535px;
+    &__block {        
         margin: 70px 0;
         background-color: rgba(0, 0, 0, 0.5);
         box-shadow: 0 0 18.9px 10.2px rgba(139, 98, 98, 0.72);
 
-        @media (max-width: 575px) { 
+        @media (max-width: 767px) { 
             margin: 10px 0;                 
         }
     }
@@ -19,15 +17,19 @@
         @include text-title;
         margin: 35px 0;
 
-        @media (max-width: 575px) { 
+        @media (max-width: 767px) { 
             margin: 25px 0;
+            font-size: 40px;       
+        }
+
+        @media (max-width: 575px) { 
             font-size: 30px;       
         }
     }
 
     &__contacts {
 
-        @media (max-width: 575px) { 
+        @media (max-width: 767px) { 
             padding: 0 15px;                 
         }
 
@@ -60,7 +62,7 @@
         margin-top: 10px;
         margin-bottom: 13px;
 
-        @media (max-width: 575px) { 
+        @media (max-width: 767px) { 
             padding: 0 15px;                 
         }
     }
@@ -98,7 +100,7 @@
     }
 
     &__form {
-        @media (max-width: 575px) { 
+        @media (max-width: 767px) { 
             padding: 0 15px;                 
         }
     }

@@ -9,8 +9,12 @@
         text-align: center;
         margin: 45px 0;
 
-        @media (max-width: 575px) {
+        @media (max-width: 767px) {
             margin: 20px 0;
+            font-size: 40px;
+        }
+
+        @media (max-width: 575px) {            
             font-size: 30px;
         }
     
@@ -96,11 +100,17 @@
         color: white;
         border-right: 1px solid white;
 
-        @media (max-width: 575px) {
+        @media (max-width: 767px) {
             margin-right: 20px;
-            padding-left: 0px;
+            padding-left: 25px;
             border-right: none;             
             border-bottom: 1px solid white;
+            list-style: initial;
+        }
+
+        @media (max-width: 575px) {            
+            list-style: none;
+            padding-left: 0px;
         }
 
         &--last {
