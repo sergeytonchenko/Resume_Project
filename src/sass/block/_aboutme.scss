@@ -62,7 +62,8 @@
         }
         
         @media (max-width: 767px) {            
-            padding: 15px;        
+            padding: 15px;
+            font-size: 20px;        
         }
     }
 
@@ -108,7 +109,8 @@
             }
             
             @media (max-width: 767px) { 
-                text-align: start; 
+                text-align: start;
+                font-size: 20px; 
                 padding: 5px 10px;       
             }
         }
