@@ -8,6 +8,10 @@
         background-color: rgba(0, 0, 0, 0.5);
         box-shadow: 0 0 18.9px 10.2px rgba(139, 98, 98, 0.72);
 
+        @media (max-width: 991px) { 
+            margin: 30px 0;                 
+        }
+
         @media (max-width: 767px) { 
             margin: 10px 0;                 
         }
@@ -29,14 +33,26 @@
 
     &__contacts {
 
+        @media (max-width: 991px) { 
+            padding-left: 15px;                 
+        }
+
         @media (max-width: 767px) { 
-            padding: 0 15px;                 
+            padding: 0px 15px;                 
         }
 
         & p {
             padding: 15px 0;
             color: white;
             font-size: 25px;
+
+            @media (max-width: 991px) {                 
+                font-size: 20px;       
+            }
+
+            @media (max-width: 767px) {                 
+                font-size: 25px;       
+            }
 
             @media (max-width: 575px) { 
                 padding: 10px 0;
@@ -61,6 +77,10 @@
     &__social {
         margin-top: 10px;
         margin-bottom: 13px;
+
+        @media (max-width: 991px) { 
+            padding-left: 15px;                 
+        }
 
         @media (max-width: 767px) { 
             padding: 0 15px;                 
@@ -100,6 +120,11 @@
     }
 
     &__form {
+
+        @media (max-width: 991px) { 
+            padding-right: 15px;                 
+        }
+
         @media (max-width: 767px) { 
             padding: 0 15px;                 
         }

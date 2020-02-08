@@ -7,11 +7,15 @@
         @include text-page (40px);        
         margin-top: 55px;
 
-        @media (max-width: 767px) {
+        @media (max-width: 991px) {
             margin-top: 35px;
-            font-size: 35px;
+            font-size: 30px;
             line-height: 40px;
             text-align: center;
+        }
+
+        @media (max-width: 767px) {            
+            font-size: 35px;                     
         }
 
         @media (max-width: 575px) {            
@@ -25,8 +29,12 @@
         margin-top: 63px;
         text-transform: uppercase;
 
-        @media (max-width: 767px) {
+        @media (max-width: 991px) {
             margin-top: 30px;
+            font-size: 20px;           
+        }
+
+        @media (max-width: 767px) {            
             font-size: 25px;           
         }
 
@@ -48,21 +56,26 @@
     &__photo {
         margin-top: 70px; 
         
-        @media (max-width: 767px) {
+        @media (max-width: 991px) {
             margin-top: 30px;                               
         }
     }
     &__photo img{        
         box-shadow: 0 0 27px 7px rgba(181, 55, 55, 0.72);
 
-        @media (max-width: 767px) {            
+        @media (max-width: 991px) {            
             width: 100%;                       
         }        
     }
     &__menu {
         @include text-page (35px);
         text-align: center;
-        margin-top: 70px;        
+        margin-top: 70px;
+
+        @media (max-width: 991px) {
+            margin-top: 30px;                                           
+        }
+        
     }
     &__menu.menu {
         .menu {
@@ -72,6 +85,10 @@
                 padding-bottom: 12px;
                 @include about-block;
                 cursor: pointer;
+
+                @media (max-width: 991px) {
+                    margin-bottom: 17px;                               
+                }
 
                 &:hover {
                     color: white;
@@ -87,11 +104,15 @@
     }
 
     &__social {
-        margin-top: 30px;
-        margin-bottom: 53px;
+        margin-top: 50px;
+        margin-bottom: 70px;
 
-        @media (max-width: 575px) {
-            margin-bottom: 30px;                               
+        @media (max-width: 991px) {
+            margin: 40px 0;                                           
+        }
+
+        @media (max-width: 767px) {
+            margin: 40px 0;                                           
         }
     }
     
@@ -116,7 +137,7 @@
 
     &__scroll {
         text-align: center;
-        margin-bottom: 39px;
+        margin-bottom: 45px;
         position: relative;
         cursor: pointer;        
 
@@ -211,6 +232,7 @@
                 background-color: rgba(181, 55, 55, 0.72);
                 transition: all 0.5s linear;
                 text-align: center;
+                z-index: 10;
 
                 @media (max-width: 767px) {
                     right: 0;

@@ -29,7 +29,7 @@
             filter: grayscale(100%);
             filter: gray; /* IE 6-9 */
 
-            @media (max-width: 676px) { 
+            @media (max-width: 991px) { 
                 filter: none;       
             }
         }
@@ -66,9 +66,18 @@
 
 .owl-prev {
     left: -155px;
+
+    @media (max-width: 991px) {
+        left: -120px;
+    }
 }
+
 .owl-next {
-    right: -155px;      
+    right: -155px; 
+    
+    @media (max-width: 991px) {
+        right: -120px;
+    }
 }
 .owl-dots {
     margin-top: 50px;
