@@ -1,5 +1,4 @@
-.skills {
-    //height: 800px;
+.skills {    
     background-image: url(../img/skills/skills_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,7 +87,7 @@
         margin-bottom: 75px;
         border-radius: 5px;
 
-        @media (max-width: 991px) {
+        @media (max-width: 1199px) {
             margin-bottom: 35px;
         }
     }

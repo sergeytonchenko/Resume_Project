@@ -8,7 +8,7 @@
         background-color: rgba(0, 0, 0, 0.5);
         box-shadow: 0 0 18.9px 10.2px rgba(139, 98, 98, 0.72);
 
-        @media (max-width: 991px) { 
+        @media (max-width: 1199px) { 
             margin: 30px 0;                 
         }
 
@@ -33,7 +33,7 @@
 
     &__contacts {
 
-        @media (max-width: 991px) { 
+        @media (max-width: 1199px) { 
             padding-left: 15px;                 
         }
 
@@ -78,6 +78,10 @@
         margin-top: 10px;
         margin-bottom: 13px;
 
+        @media (max-width: 1199px) { 
+            padding: 0 25px;                 
+        }
+
         @media (max-width: 991px) { 
             padding-left: 15px;                 
         }
@@ -121,7 +125,7 @@
 
     &__form {
 
-        @media (max-width: 991px) { 
+        @media (max-width: 1199px) { 
             padding-right: 15px;                 
         }
 

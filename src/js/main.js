@@ -14,22 +14,9 @@ $("#portfolio__slider").owlCarousel({
     nav: true,
     autoplay: true,
     dotsEach: 1,                           
-    autoplayTimeout: 3000,
-    // responsiveClass:true,
+    autoplayTimeout: 3000,    
     animateIn: 'zoomInRight',
-    animateOut: "zoomOutLeft",
-    // responsive:{
-    //     0 :{
-    //         items: 1,
-    //         nav: false
-    //     },
-    //     690 :{
-    //         items: 2
-    //     },
-    //     992 :{
-    //         items: 3
-    //     }
-    // }
+    animateOut: "zoomOutLeft",    
 });
 
 $('.owl-prev span').html('<img src="../img/portfolio/prev.png"></img>');
